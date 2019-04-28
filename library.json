@@ -1,0 +1,26 @@
+{
+  "name": "MqttHelper",
+  "keywords": "mqtt, tls, wifi, wi-fi",
+  "description": "ESP8266 Mqtt helper for secure connection from ESP to Wifi and MQTT server",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/klotzt/MqttHelper"
+  },
+  "dependencies":
+  [
+      {
+        "platforms": "espressif8266",
+        "version": "0.8.2",
+        "name": "AsyncMqttClient"
+      },
+      {
+        "platforms": "espressif8266",
+        "version": "1.0",
+        "name": "ESP8266HTTPUpdateServer"
+      }
+  ]
+  "frameworks": "arduino",
+  "platforms": "espressif8266",
+  "version": "0.1"
+}
