@@ -19,7 +19,7 @@
         "version": "1.0",
         "name": "ESP8266HTTPUpdateServer"
       }
-  ]
+  ],
   "frameworks": "arduino",
   "platforms": "espressif8266",
   "version": "0.1"
